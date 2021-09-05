@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(133, 127, 127);
+    background-image: url(calc.jpeg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.calculadora {
+    background-color: rgb(2, 2, 15);
+    
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid black;
+    
+}
+
+.visor {
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(93, 191, 236);
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    outline: none;
+    text-align: right;
+    font-size: 50px;
+    border: 1px solid rgb(250, 248, 248);
+    
+    
+}
+
+.botoesCalculadora {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(133, 131, 133);
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgb(156, 152, 152);
+    color: white;
+}
+
+.divisao {
+    background-color: darkmagenta;
+}
+.divisao:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.multiplicador {
+    background-color: rgb(0, 130, 50);
+    
+}
+.multiplicador:hover {
+    background-color: rgb(0, 130, 50);
+    color: white;
+}
+
+.subtrair {
+    background-color: rgb(153, 194, 5);
+}
+.subtrair:hover {
+    background-color: rgb(153, 194, 5);
+    color: white;
+}
+
+.somar {
+    background-color: lightseagreen;
+}
+
+.somar:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.igual {
+    background-color: maroon;
+    
+}
+
+.igual:hover {
+    background-color: maroon;
+    color: white;
+    
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        <input disabled id="input-value" class="visor">
+        <div class="botoesCalculadora">
+            <button onclick="limpatudo ('CE')"class="zeraTudo">CE</button>
+            <button onclick="porcentagem ('%')"class="porcentagem">%</button>
+            <button onclick="voltar ('<<')"class="voltar">&larr;</button>
+            <button onclick="insertValues('/')"class="divisao">/</button>
+            <button onclick="insertValues('7')" class="numeros">7</button>
+            <button onclick="insertValues('8')"class="numeros">8</button>
+            <button onclick="insertValues('9')"class="numeros">9</button>
+            <button onclick="insertValues('*')"class="multiplicador">x</button>
+            <button onclick="insertValues('4')"class="numeros">4</button>
+            <button onclick="insertValues('5')"class="numeros">5</button>
+            <button onclick="insertValues('6')"class="numeros">6</button>
+            <button onclick="insertValues('-')"class="subtrair">-</button>
+            <button onclick="insertValues('1')"class="numeros">1</button>
+            <button onclick="insertValues('2')"class="numeros">2</button>
+            <button onclick="insertValues('3')"class="numeros">3</button>
+            <button onclick="insertValues('+')"class="somar">+</button>
+            <button onclick="invertevalor('+-')"class="maisOuMenos">+-</button>
+            <button onclick="insertValues('0')"class="numeros">0</button>
+            <button onclick="insertValues('.')"class="ponto">.</button>
+            <button onclick="resultado()"class="igual">=</button>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
